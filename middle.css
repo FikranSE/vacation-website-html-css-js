@@ -1,0 +1,133 @@
+.middle-section-bx{
+    width:50%;
+    min-height:100vh;
+    padding:5px;
+}
+
+.middle-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.place-bx{
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    column-gap:10px;
+    margin-top:25px;
+    padding-top:20px;
+    width:760px;
+    height:290px;
+    border-radius:12px;
+    background-color:rgb(23, 17, 37);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.place-bx img{
+    width:150px;
+    border-radius:7px;
+}
+.place-1,.place-2,.place-3{
+    padding:10px 10px;
+    padding-bottom:30px;
+    border-radius:12px;
+    background-color:rgb(19, 13, 30);
+    
+}
+.place-bx h3{
+    margin-top:6px;
+    color:rgb(184, 183, 183);
+    font-size:16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor:pointer;
+    transition:0.3s;
+}
+.place-bx h3:hover{
+    opacity:0.6;
+    color:rgb(92, 26, 206);
+}
+.place-bx p{
+    color:rgb(146, 145, 145);
+    font-size:12px;
+    font-family: 'Poppins';
+    margin-bottom:30px;
+}
+.place-bx i{
+margin-right:4px;
+font-size:16px;
+color:rgb(141, 124, 175);
+}
+
+.place-bx a{
+    text-decoration: none;
+    padding:9px 15px;
+    border-radius:25px;
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size:12px;
+    background-color:rgb(92, 26, 206);
+    color:rgb(229, 222, 233);
+    transition:0.3s;
+}
+.place-bx a:hover{
+    opacity:0.6;
+}
+.hotel-bx{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,260px);
+    margin-top:15px;
+    gap:12px;
+    margin-top:25px;
+    padding:20px;
+    width:760px;
+    height:570px;
+    border-radius:12px;
+    background-color:rgb(23, 17, 37);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hotel-1,.hotel-2,.hotel-3,.hotel-4{
+    padding:10px 10px;
+    margin:0 auto;
+    border-radius:12px;
+    background-color:rgb(19, 13, 30);
+}
+.hotel-bx img{
+    width:200px;
+    border-radius:7px;
+}
+.hotel-bx h3{
+    margin-top:6px;
+    color:rgb(184, 183, 183);
+    font-size:16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor:pointer;
+    transition:0.3s;
+}
+.hotel-bx h3:hover{
+    opacity:0.6;
+    color:rgb(92, 26, 206);
+}
+.hotel-bx p{
+    color:rgb(146, 145, 145);
+    font-size:12px;
+    font-family: 'Poppins';
+    margin-bottom:30px;
+}
+.hotel-bx a{
+    text-decoration: none;
+    padding:9px 15px;
+    border-radius:25px;
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size:12px;
+    background-color:rgb(92, 26, 206);
+    color:rgb(229, 222, 233);
+    transition:0.3s;
+}
+.hotel-bx a:hover{
+    opacity:0.6;
+}

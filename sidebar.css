@@ -1,0 +1,157 @@
+.sidebar-out-bx{
+padding:30px;
+width:25%;
+
+}
+
+.sidebar-bx{
+    border-radius: 15px;
+    width:250px;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height:700px;
+    background-color:rgb(23, 17, 37);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-bx{
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    margin-top:30px;
+    position:absolute;
+    top:0;
+}
+.search-bar{
+    width:190px;
+    position:relative;
+    background:transparent;
+    outline:none;
+    padding:10px;
+    padding-left:42px;
+    font-size:12px;
+    border:0;
+    color:rgb(7, 7, 7);
+    font-family:'poppins';
+    background:rgb(247, 227, 255);
+    border-radius:25px;
+}
+.search-bar::placeholder{
+    font-size:15px;
+    
+}
+.bi-search{
+    position:absolute;
+    left:14px;
+    bottom:9px;
+    font-size:15px;
+    color:rgb(44, 4, 77);
+}
+
+
+.title-sidebar{
+    position:absolute;
+    top:100px;
+    left:30px;
+}
+.title-sidebar h3{
+    color:rgb(184, 183, 183);
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bold;
+}
+.title-sidebar p{
+    font-size:12px;
+    font-weight:bold;
+    color:rgb(88, 86, 86);
+    font-family: 'poppins';
+}
+.bi-bell-fill{
+    position:absolute;
+    right:-22px;
+    top:4px;
+    color:rgb(79, 82, 114);
+}
+
+.sidebar-links{
+    display:flex;
+    flex-direction: column;
+}
+
+.nav-links ul{
+    list-style: none;
+    position:absolute;
+    left:30px;
+    top:200px;
+}
+.nav-links ul li{
+    margin-bottom:30px;
+}
+
+.nav-links ul li a{
+    margin-left:15px;
+    text-decoration:none;
+    color:rgb(151, 151, 151);
+    font-family:'roboto';
+    font-weight:600;
+    transition:0.3s;
+}
+.nav-links ul li a:hover{
+    color:rgb(92, 26, 206);
+}
+
+
+.nav-links i{
+    font-size: 18px;
+    color:rgb(86, 96, 96);
+}
+.logout-bx{
+    border-top: 2px solid rgba(166, 150, 189, 0.329);
+    width:190px;
+    padding-top:70px;
+    position:absolute;
+    bottom:42px;
+    left:30px;
+}
+
+.logout-bx a{
+    margin-left:15px;
+    text-decoration:none;
+    color:rgb(151, 151, 151);
+    font-family:'roboto';
+    font-weight:600;
+    transition:0.3s;
+}
+.logout-bx a:hover{
+    color:rgb(92, 26, 206);
+}
+.logout-bx i{
+    font-size: 18px;
+    color:rgb(86, 96, 96);
+}
+.setting{
+    margin-bottom:30px;
+}
+/* .logout{
+    position:absolute;
+    left:30px;
+    bottom:50px;
+}
+
+.logout a{
+    text-decoration:none;
+    margin-left:13px;
+    color:rgb(151, 151, 151);
+    font-family:'roboto';
+    font-weight:600;
+    transition:0.3s;
+}
+.logout a:hover{
+    color:rgb(26, 26, 199);
+}
+.logout i{
+    font-size: 18px;
+    color:rgb(86, 96, 96);
+} */
